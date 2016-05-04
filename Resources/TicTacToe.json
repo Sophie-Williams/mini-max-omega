@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Status.Ping",
+		"returns": {
+			"ping": "OK"
+		}
+	},
+	{
+		"name": "TicTacToe.NextMove",
+		"params": [{
+			"gameid": 78,
+			"mark": "X",
+			"gamestate": ["O", "X", "O", "", "O", "", "", "X", ""]
+		}],
+		"returns": {
+			"position": 7
+		}
+	},
+	{
+		"name": "TicTacToe.Complete",
+		"params": [{
+      "gameid": 21,
+      "winner": true,
+      "mark": "X",
+      "gamestate": ["O", "X", "O", "", "O", "X", "O", "X", ""]
+   	}],
+		"returns": {
+			"status": "OK"
+		}
+	},
+	{
+   		"method": "TicTacToe.Error",
+   		"params": [{
+        "gameid": 21,
+        "message": "You played an invalid move, 'X' was already played here.",
+        "errorcode": 1548
+   		}],
+   		"returns": {
+        "status": "OK"
+		}
+	}
+]

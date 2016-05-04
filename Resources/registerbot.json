@@ -1,0 +1,18 @@
+[
+	{
+	  "name": "RegistrationService.Register",
+	  "params": [{
+	      "token": "11111111111111111111111111111111111111111111111111",
+	      "botname": "Mini Max",
+	      "botversion": "0.0.1",
+	      "game": "TICTACTOE",
+	      "rpcendpoint": "121.45.205.107",
+	      "programminglanguage": "C++",
+	      "website": "http://github.com/apigram/Omega-tic-tac-toe",
+	      "description": "A bot that can never lose. Have at you!"
+	  }],
+	  "returns": {
+	      "message": "Hello, Mini Max, good luck with Tic-Tac-Toe!"
+	  }
+}
+]
